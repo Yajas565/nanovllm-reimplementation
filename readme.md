@@ -1,3 +1,4 @@
+## About this repo
 - this is a re-implementation of Xingkai Yu's nano-vllm to understand how paged attention, continuous batching, tensor parallelism, schedulers, block manager works
 
 - here i understodd each and every line of the real nano vllm and then reimplemented it from memory and diff against reference 
