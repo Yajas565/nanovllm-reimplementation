@@ -1,6 +1,7 @@
 ## About this repo
 Re-implementation of Xingkai Yu's [nano-vllm](https://github.com/GeeeekExplorer/nano-vllm), built to deeply understand production LLM serving internals — paged KV cache, continuous batching, tensor parallelism, and request scheduling.
 
+
 **Approach:** read every line of the original -> reimplement each file from memory -> diff my implementation against the reference to catch bugs and correct wrong assumptions.
 
 
