@@ -6,9 +6,6 @@ Re-implementation of Xingkai Yu's [nano-vllm](https://github.com/GeeeekExplorer/
 **Next:** move to studying real vLLM and contributing small PRs.
 
 
-- Original repo:-> github.com/GeeeekExplorer/nano-vllm
-
-
 ## Installation
 > flash-attn requires a two-step install due to CUDA build isolation issues.
 
