@@ -1,9 +1,10 @@
 ## About this repo
-- this is a re-implementation of Xingkai Yu's nano-vllm to understand how paged attention, continuous batching, tensor parallelism, schedulers, block manager works
+Re-implementation of Xingkai Yu's [nano-vllm](https://github.com/GeeeekExplorer/nano-vllm), built to deeply understand production LLM serving internals — paged KV cache, continuous batching, tensor parallelism, and request scheduling.
 
-- here i understodd each and every line of the real nano vllm and then reimplemented it from memory and diff against reference 
+**Approach:** read every line of the original -> reimplement each file from memory -> diff my implementation against the reference to catch bugs and correct wrong assumptions.
 
-- as now i have the basic idea of how inference is happening in the real production environments like(vLLM), i will try to understand the vLLM and learn the required topics on the go.
+**Next:** move to studying real vLLM and contributing small PRs.
+
 
 - Original repo:-> github.com/GeeeekExplorer/nano-vllm
 
